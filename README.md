@@ -163,10 +163,12 @@ if __name__ == '__main__':
 **Шаг 3.** Заполните файл в соответствии с требованиями Ansible так, чтобы он выполнял основную задачу: module должен создавать текстовый файл на удалённом хосте по пути, определённом в параметре `path`, с содержимым, определённым в параметре `content`.
 
 **Шаг 4.** Проверьте module на исполняемость локально.
+<img width="1852" height="126" alt="image" src="https://github.com/user-attachments/assets/e60e58d2-8ef4-47eb-a17d-40a54fa1ce1c" />
 
 **Шаг 5.** Напишите single task playbook и используйте module в нём.
 
 **Шаг 6.** Проверьте через playbook на идемпотентность.
+<img width="1539" height="683" alt="image" src="https://github.com/user-attachments/assets/c146087e-9a82-4bce-b0f2-4080d2916728" />
 
 **Шаг 7.** Выйдите из виртуального окружения.
 
@@ -185,10 +187,16 @@ if __name__ == '__main__':
 **Шаг 14.** Создайте ещё одну директорию любого наименования, перенесите туда single task playbook и архив c collection.
 
 **Шаг 15.** Установите collection из локального архива: `ansible-galaxy collection install <archivename>.tar.gz`.
+<img width="1850" height="274" alt="image" src="https://github.com/user-attachments/assets/fae18d72-0020-45c2-9c15-f583d5390852" />
 
 **Шаг 16.** Запустите playbook, убедитесь, что он работает.
+<img width="1848" height="777" alt="image" src="https://github.com/user-attachments/assets/cc25ef6d-7a22-424d-a0fa-16e50f3ef299" />
 
 **Шаг 17.** В ответ необходимо прислать ссылки на collection и tar.gz архив, а также скриншоты выполнения пунктов 4, 6, 15 и 16.
+
+https://github.com/ekwest93/my_own_collection.git
+
+[https://github.com/ekwest93/yandex_cloud_elk.git](https://github.com/ekwest93/yandex_cloud_elk/releases/tag/1.0.0)
 
 ## Необязательная часть
 
